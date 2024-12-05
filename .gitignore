@@ -1,0 +1,23 @@
+node_modules
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore database and test files
+shopninja_test.db
+flask_cache/
+flask_session/
+node_modules/
+
+# Ignore specific temporary files
+install_log.txt
+
+#Google Cloud API Key
+shopninja-test-3fda0ea8a770.json
